@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry: The Central Science</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            width: 50px;
+            margin-right: 1rem;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 0.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+        }
+        nav a:hover {
+            background: #4CAF50;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 2rem;
+            background-color: #f4f4f9;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333333a5;
+            color: white;
+            font-size: 0.9rem;
+        }
+        .highlight {
+            background: #e8f5e9;
+            padding: 1rem;
+            border-left: 5px solid #4CAF50;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .toolbox {
+            background-color: #f4f4f9;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .toolbox h3 {
+            color: #4CAF50;
+        }
+        .toolbox ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .toolbox ul li {
+            padding: 0.5rem 0;
+        }
+        .toolbox ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold; 
+        }
+        .toolbox ul li a:hover {
+            color: #4CAF50;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            nav a {
+                padding: 0.5rem 0.8rem;
+            }
+            .container {
+                padding: 1rem;
+            }
+            section h2 {
+                font-size: 1.5rem;
+            }
+            footer {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <video class="video-background" autoplay muted loop>
+        <source src="g:\che 2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <header>
+        <img src="g:\NML Logo.jpg" alt="Logo">
+        <h1>Chemistry: The Central Science</h1>
+    </header>
+    <nav>
+        <a href="Page 1.html">Previous</a>
+        <a href="#Chemistry in Daily Life">Chemistry in Daily Life</a>
+        <a href="#Main Branches of Chemistry">Main Branches</a>
+        <a href="Page 3.html">Next Page</a>
+    </nav>
+    <div class="container">
+        <section id="Chemistry in Daily Life">
+            <h2>Chemistry in Daily Life</h2>
+            <p>Chemistry impacts our lives in countless ways, from cleaning products to the foods we eat.</p>
+            <div class="highlight">
+            </header>
+            <div class="container">
+                <div class="section">
+                    <h2>Chemistry in Food</h2>
+                    <ul>
+                        <li><strong>Cooking:</strong> Heat causes chemical reactions like caramelization.</li>
+                        <li><strong>Preservation:</strong> Salt and vinegar prevent food spoilage.</li>
+                        <li><strong>Nutrition:</strong> Proteins, vitamins, and minerals are chemical compounds.</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Chemistry in Cleaning</h2>
+                    <ul>
+                        <li><strong>Soaps:</strong> Contain surfactants that remove grease and dirt.</li>
+                        <li><strong>Bleach:</strong> Breaks down stains and kills bacteria.</li>
+                        <li><strong>Vinegar:</strong> Acetic acid acts as a natural cleaning agent.</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Chemistry in Medicine</h2>
+                    <ul>
+                        <li><strong>Drugs:</strong> Painkillers, antibiotics, and other medicines are chemical formulations.</li>
+                        <li><strong>Vaccines:</strong> Use chemical compounds to boost immunity.</li>
+                        <li><strong>Sanitizers:</strong> Kill germs using alcohol and antiseptics.</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Chemistry in Personal Care</h2>
+                    <ul>
+                        <li><strong>Shampoo:</strong> Contains surfactants to clean hair.</li>
+                        <li><strong>Toothpaste:</strong> Fluoride helps strengthen teeth.</li>
+                        <li><strong>Makeup:</strong> A blend of chemical compounds for beauty products.</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Chemistry in Environment</h2>
+                    <ul>
+                        <li><strong>Air:</strong> Oxygen, nitrogen, and carbon dioxide are vital gases.</li>
+                        <li><strong>Water Treatment:</strong> Chlorine purifies water for safe consumption.</li>
+                        <li><strong>Fertilizers:</strong> Provide essential nutrients for plants.</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="Main Branches of Chemistry">
+            <h2>Main branches of Chemistry</h2>
+            <ul>
+                <h3><li>Organic Chemistry</li>
+                <li>Inorganic Chemistry</li>
+                <li>Physical Chemistry</li>
+                <li>Analytical Chemistry</li>
+                <li>Biochemistry</li>
+                </h3>
+            </ul>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin: 20px 0;
+                }
+                table, th, td {
+                    border: 1px solid #000;
+                }
+                th, td {
+                    padding: 10px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #f2f2f2;
+                }
+                caption {
+                    font-size: 1.5em;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                }
+            </style>
+            <table>
+                <caption>Main Branches of Chemistry</caption>
+                <tr>
+                    <th>Branch</th>
+                    <th>Areas of Emphasis</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td>Organic Chemistry</td>
+                    <td>Most carbon-containing chemicals which are hydrocarbons and their derivatives</td>
+                    <td>Pharmaceutical, plastics</td>
+                </tr>
+                <tr>
+                    <td>Inorganic Chemistry</td>
+                    <td>In general, matter that does not deal with hydrocarbons</td>
+                    <td>Minerals, metals and non-metals, semiconductors</td>
+                </tr>
+                <tr>
+                    <td>Physical Chemistry</td>
+                    <td>The behaviour and changes of matter and the related energy changes</td>
+                    <td>Reaction rates, reaction mechanisms</td>
+                </tr>
+                <tr>
+                    <td>Analytical Chemistry</td>
+                    <td>Components and compositions of substances</td>
+                    <td>Food nutrients, quality control (QC) and quality assurance (QA)</td>
+                </tr>
+                <tr>
+                    <td>Biochemistry</td>
+                    <td>Matter and processes of living organisms</td>
+                    <td>Metabolism, fermentation</td>
+                </tr>
+            </table>      
+        <footer>
+        <p>&copy; 2024 Chemistry: The Central Science | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+
